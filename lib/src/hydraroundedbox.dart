@@ -1,14 +1,10 @@
 import 'package:flutter/material.dart';
 
 class RoundedBox extends StatefulWidget {
-  RoundedBox(
-      {Key? key,
-      required this.addedWidget,
-      required this.height,
-      required this.width})
+  RoundedBox({Key? key, required this.addedWidget, this.height, this.width})
       : super(key: key);
-  final double height;
-  final double width;
+  double? height;
+  double? width;
   final Widget addedWidget;
   Color? boxColor;
   double? borderRadius;
