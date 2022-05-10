@@ -11,16 +11,12 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-Hydra Rounded Box consist of a modifiable container widget including user defined properties
+Hydra Package consist of a modifiable widgets used in Hydra Desktop that allows developers to modify parameters to their choosing.
 
 ## Features
 
-Properties you can modify:
- - height
- - width
- - addedWidget
- - boxColor
- - borderRadius
+Widgets you can modify:
+ - Template Cells
 
 ## Getting started
 
